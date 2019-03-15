@@ -4,7 +4,7 @@ Spam Filter is a machine learning model that is used to detect unsolicited and u
 
 We will use  sms spam data from kaggle link given below.
 
-#https://www.kaggle.com/uciml/sms-spam-collection-dataset
+https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
 ## Algorithm:-
 
@@ -25,7 +25,8 @@ We will use Scikit library of python to implement Naive Bayes because of it’s 
 
 ## NOTE:-
 
-## Laplace Smoothing:-  It is used to smooth categorical data.Lets take an observation
+## Laplace Smoothing:- 
+It is used to smooth categorical data.Lets take an observation
 x=(x1,x2,x3........,xd) from a multinomial distribution with N trials  then,
 
 our estimator=(x+alpha) / (N+alpha*d) .
