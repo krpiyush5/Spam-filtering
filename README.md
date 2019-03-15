@@ -23,8 +23,6 @@ After preprocessing we will split our data into train and test then convert into
 
 We will use Scikit library of python to implement Naive Bayes because of it’s lucidity.
 
-## NOTE:-
-
 ## Laplace Smoothing:- 
 It is used to smooth categorical data.Lets take an observation
 x=(x1,x2,x3........,xd) from a multinomial distribution with N trials  then,
