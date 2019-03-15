@@ -1,15 +1,12 @@
 # Spam-filtering
 
-
-SPAM FILTERING:-
-
 Spam Filter is a machine learning model that is used to detect unsolicited and unwanted messages and avert those messages from getting to a users’s inbox.
 
 We will use  sms spam data from kaggle link given below.
 
 #https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
-Algorithm:-
+## Algorithm:-
 
 The most challenging task in machine learning is to apply algorithm because we can not apply any random algorithm to any random data.
 
@@ -26,9 +23,9 @@ After preprocessing we will split our data into train and test then convert into
 
 We will use Scikit library of python to implement Naive Bayes because of it’s lucidity.
 
-NOTE:-
+## NOTE:-
 
-Laplace Smoothing:-  It is used to smooth categorical data.Lets take an observation
+## Laplace Smoothing:-  It is used to smooth categorical data.Lets take an observation
 x=(x1,x2,x3........,xd) from a multinomial distribution with N trials  then,
 
 our estimator=(x+alpha) / (N+alpha*d) .
